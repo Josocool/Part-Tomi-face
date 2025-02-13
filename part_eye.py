@@ -42,8 +42,8 @@ while True:
             pygame.quit()
             sys.exit()
     
-    # Blink every 2 seconds
-    if time.time() - last_blink > 2:
+    # Blink every 1 seconds
+    if time.time() - last_blink > 1:
         eye_open = not eye_open
         last_blink = time.time()
     
