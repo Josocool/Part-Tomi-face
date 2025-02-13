@@ -43,7 +43,7 @@ while True:
             sys.exit()
     
     # Blink every 1 seconds
-    if time.time() - last_blink > 1:
+    if time.time() - last_blink > 0.5:
         eye_open = not eye_open
         last_blink = time.time()
     
